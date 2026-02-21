@@ -1,12 +1,13 @@
 
 variable "resource_group_name" {
-    type = "string"
+    type = string
     default = "my_rg"
   
 }
 
 variable "location" {
-    type = "string"
+    type = string
     default = "East US"
   
+
 }
